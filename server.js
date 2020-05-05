@@ -1,5 +1,5 @@
 const express = require('express');
-import connectDB from './db/connectDb'
+const connectDB = require('./db/connectDb');
 if (process.env.NODE_ENV != 'production') {
     require('dotenv').config();
 }
